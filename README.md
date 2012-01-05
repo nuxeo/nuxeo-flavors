@@ -4,6 +4,14 @@ This addon offers you some flavors to customize the colors of your platform easi
 
 A flavor is a group of 4 files: background, borders, colors and fonts, corresponding the CSS properties.
 
+## Available Sets of flavors
+
+Each directory contains a set of several flavors.
+
+### Unicolor
+
+Dark header and footer, and one main color for the content.
+Blue, Brown, Gray, Green, Manis, Orange, Pink, Purple, Red, Turquoise and Yellow.
 
 ## About Nuxeo
 
