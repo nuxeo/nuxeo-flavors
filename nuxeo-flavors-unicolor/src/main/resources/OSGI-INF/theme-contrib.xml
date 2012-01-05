@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="org.nuxeo.ecm.flavors.unicolor.theme">
+
+  <require>org.nuxeo.theme.nuxeo.default</require>
+
+<!-- Register mapping between theme pages and resources -->
+  <extension target="org.nuxeo.theme.styling.service" point="pages">
+
+    <themePage name="*">
+      <flavors append="true">
+        <flavor>blue</flavor>
+        <flavor>brown</flavor>
+        <flavor>gray</flavor>
+        <flavor>green</flavor>
+        <flavor>mantis</flavor>
+        <flavor>orange</flavor>
+        <flavor>pink</flavor>
+        <flavor>purple</flavor>
+        <flavor>red</flavor>
+        <flavor>turquoise</flavor>
+        <flavor>yellow</flavor>
+      </flavors>
+    </themePage>
+
+  </extension>
+
+  <!-- Register flavors (collections of presets) -->
+  <extension target="org.nuxeo.theme.styling.service" point="flavors">
+    
+    <flavor name="blue" extends="default">
+      <label>label.theme.flavor.nuxeo.blue</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/blue-borders.properties" />
+        <presets category="background" src="themes/palettes/blue-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/blue-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#383838</color>
+          <color>#fff</color>
+          <color>#e2f0ff</color>
+          <color>#cfe7ff</color>
+          <color>#a9d4ff</color>
+          <color>#4a8fd6</color>
+          <color>#1560a4</color>
+          <color>#0067c5</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="brown" extends="default">
+      <label>label.theme.flavor.nuxeo.brown</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/brown-borders.properties" />
+        <presets category="background" src="themes/palettes/brown-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/brown-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#fff2e3</color>
+          <color>#fde3c5</color>
+          <color>#f4ca9d</color>
+          <color>#ba8e5e</color>
+          <color>#82501b</color>
+          <color>#a56622</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="gray" extends="default">
+      <label>label.theme.flavor.nuxeo.gray</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/gray-borders.properties" />
+        <presets category="background" src="themes/palettes/gray-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/gray-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#eeeff1</color>
+          <color>#e2e6e8</color>
+          <color>#ccd2d7</color>
+          <color>#848d95</color>
+          <color>#2a5b6c</color>
+          <color>#2e7187</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="green" extends="default">
+      <label>label.theme.flavor.nuxeo.green</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/green-borders.properties" />
+        <presets category="background" src="themes/palettes/green-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/green-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#e5fff1</color>
+          <color>#c9ffe1</color>
+          <color>#92ffc2</color>
+          <color>#00c358</color>
+          <color>#007037</color>
+          <color>#008e45</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="mantis" extends="default">
+      <label>label.theme.flavor.nuxeo.mantis</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/mantis-borders.properties" />
+        <presets category="background" src="themes/palettes/mantis-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/mantis-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#f0ffda</color>
+          <color>#d3fd98</color>
+          <color>#baee76</color>
+          <color>#6aba13</color>
+          <color>#357200</color>
+          <color>#439100</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="orange" extends="default">
+      <label>label.theme.flavor.nuxeo.orange</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/orange-borders.properties" />
+        <presets category="background" src="themes/palettes/orange-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/orange-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#fff2d9</color>
+          <color>#ffe4b1</color>
+          <color>#ffd27f</color>
+          <color>#f4a100</color>
+          <color>#e47600</color>
+          <color>#ff8400</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="pink" extends="default">
+      <label>label.theme.flavor.nuxeo.pink</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/pink-borders.properties" />
+        <presets category="background" src="themes/palettes/pink-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/pink-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#ffecf5</color>
+          <color>#f9daea</color>
+          <color>#f5beda</color>
+          <color>#e9589e</color>
+          <color>#e01270</color>
+          <color>#f50070</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="purple" extends="default">
+      <label>label.theme.flavor.nuxeo.purple</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/purple-borders.properties" />
+        <presets category="background" src="themes/palettes/purple-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/purple-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#ffeef6</color>
+          <color>#fedeff</color>
+          <color>#fbb5fb</color>
+          <color>#ed52e9</color>
+          <color>#a400a3</color>
+          <color>#c300c1</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="red" extends="default">
+      <label>label.theme.flavor.nuxeo.red</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/red-borders.properties" />
+        <presets category="background" src="themes/palettes/red-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/red-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#fce3e4</color>
+          <color>#ffd3d3</color>
+          <color>#fab3b5</color>
+          <color>#e83b3e</color>
+          <color>#c70003</color>
+          <color>#ed0002</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="turquoise" extends="default">
+      <label>label.theme.flavor.nuxeo.turquoise</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/turquoise-borders.properties" />
+        <presets category="background" src="themes/palettes/turquoise-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/turquoise-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#e1fffe</color>
+          <color>#c1fffa</color>
+          <color>#81fff7</color>
+          <color>#00dbc4</color>
+          <color>#01837c</color>
+          <color>#00a79e</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+    
+    <flavor name="yellow" extends="default">
+      <label>label.theme.flavor.nuxeo.yellow</label>
+      <presetsList append="true">
+        <presets category="border" src="themes/palettes/yellow-borders.properties" />
+        <presets category="background" src="themes/palettes/yellow-backgrounds.properties" />
+        <presets category="color" src="themes/palettes/yellow-colors.properties" />
+      </presetsList>
+      <palettePreview>
+        <colors>
+          <color>#000</color>
+          <color>#332e2e</color>
+          <color>#fff</color>
+          <color>#fffcd6</color>
+          <color>#fff9a5</color>
+          <color>#fff33a</color>
+          <color>#ecb800</color>
+          <color>#d7a700</color>
+          <color>#f5bf00</color>
+        </colors>
+      </palettePreview>
+    </flavor>
+
+  </extension>
+
+</component>
