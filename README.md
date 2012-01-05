@@ -6,12 +6,10 @@ A flavor is a group of 4 files: background, borders, colors and fonts, correspon
 
 ## Available Sets of flavors
 
-Each directory contains a set of several flavors.
+Each module contains a set of several flavors:
 
-### Unicolor
-
-Dark header and footer, and one main color for the content.
-Blue, Brown, Gray, Green, Manis, Orange, Pink, Purple, Red, Turquoise and Yellow.
+* **Unicolor** - Dark header and footer, and one main color for the content.
+Blue, Brown, Gray, Green, Mantis, Orange, Pink, Purple, Red, Turquoise and Yellow.
 
 ## About Nuxeo
 
