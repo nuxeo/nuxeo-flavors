@@ -11,10 +11,6 @@
   <description>Nuxeo Flavors Parent</description>
   <packaging>pom</packaging>
 
-  <modules>
-    <module>nuxeo-flavors-unicolor</module>
-  </modules>
-
   <repositories>
     <repository>
       <id>public</id>
