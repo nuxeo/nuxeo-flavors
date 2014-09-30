@@ -1,0 +1,4 @@
+This addon is no longer maintained.
+It was making available a set of colors for the platform to fit your brand's colors.
+Now the relevant tool to do this is Nuxeo Studio.
+Deprecated since 5.9.6
